@@ -1,8 +1,19 @@
+#Полиморфизм
+
+
 class Hero:
     def __init__(self, name, lvl, hp):
         self.name = name
         self.lvl = lvl
         self.hp = hp
+
+
+class Mage(Hero):
+    def __init__(self, name, lvl, hp, mp):
+        super().__init__(name, lvl, hp)
+        self.mp = mp
+
+
 
     def introduce(self):
         print(f"Привет, меня зовут {self.name}, мой lvl {self.lvl}, мое HP {self.hp}")

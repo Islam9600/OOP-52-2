@@ -1,14 +1,1 @@
-Команды один раз на устройство
-Команды для регистрации ваших данных
-git config --global user.name "Your name"
-git config --global user.email "your-email@example.com"
-｛｝
-8
-Команды один раз на проект
-D
-1.0
-11
-12
-git init git remote
-add
-origin https://github.com/arzy-52-2/oop-52-2.git
+.idea
