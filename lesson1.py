@@ -31,7 +31,7 @@ class Mashina:
         return print(f"{self.model} start action")
 
 # Создание объектов класса
-mercedes = Mashina("W210", 2002, "silver")
+mercedes = Mashina("Merc210", 2002, "silver")
 bmw = Mashina("F30", 2018, "black")
 
 # Вызов метода
