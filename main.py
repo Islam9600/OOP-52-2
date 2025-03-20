@@ -1,4 +1,4 @@
-from hw3 import Jester  # Импортируем класс Jester из hw3.py
+from hw.hw3 import Jester  # Импортируем класс Jester из hw3.py
 
 # Создаем экземпляр класса Jester
 jester = Jester(name="Jester Hero")
